@@ -6,12 +6,18 @@ header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
 header('Access-Control-Allow-Headers: Content-type, Authorization, X-Requested-With');
 header('Content-Type: application/json; charset=utf-8');
 
+
+$banco = 'app_ionic';
+$host = 'mysql669.umbler.com';
+$usuario = 'jeferson_assis';
+$senha = 'senhadificil1';
+
 //dados do banco no servidor local
 
-$banco = 'ionic';
+/*$banco = 'ionic';
 $host = 'localhost';
 $usuario = 'root';
-$senha = '';
+$senha = '';*/
 
 try {
 
